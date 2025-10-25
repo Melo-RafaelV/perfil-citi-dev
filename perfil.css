@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0E0F11;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-family: Arial, sans-serif; 
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+    max-width: 600px; 
+}
+
+header h1 {
+    color: greenyellow;
+}
+
+#perfil {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid greenyellow;
+    object-fit: cover;
+}
+
+.sobre_mim {
+    background-color: #333738;
+    color: white;
+    width: 100%; 
+    border-radius: 8px;
+    border: 1px solid greenyellow;
+    padding: 20px;
+    text-align: justify;
+}
+
+
+.opcoes {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px; 
+    margin-bottom: 20px; 
+}
+
+.opcoes a{
+    text-decoration: none;
+}
+
+.opcao {
+    color: whitesmoke;
+    text-decoration: none;
+    background: none;
+    transition: color 0.3s;
+    font-size: 1.2rem; 
+}
+
+.opcao:hover {
+    color: greenyellow;
+}
+
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 1400px; 
+    margin-top: 20px;
+}
+
+
+.principal h3 {
+    color: whitesmoke;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid greenyellow;
+    padding-bottom: 8px;
+}
+
+
+.conteudo {
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 30px;
+    width: 100%; 
+}
+
+
+.item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 15px;
+    background-color: #1a1a1b; 
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    width: 350px;
+}
+
+
+#jogos .item {
+    width: 450px;
+}
+
+
+.conteudo img,
+.conteudo video {
+    width: 100%; 
+    height: auto;
+    border-radius: 6px;
+    display: block; 
+}
+
+
+.item p {
+    color: #ccc; 
+    text-align: center;
+    font-size: 0.95rem;
+    width: 100%;
+    line-height: 1.4; 
+}
